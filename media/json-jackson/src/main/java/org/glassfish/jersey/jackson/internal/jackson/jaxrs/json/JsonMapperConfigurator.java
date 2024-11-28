@@ -129,7 +129,7 @@ public class JsonMapperConfigurator
                     }
                     return _jaxbIntrospectorClass.newInstance();
                 } catch (Exception e) {
-                    throw new IllegalStateException("Failed to instantiate JaxbAnnotationIntrospector: "+e.getMessage(), e);
+                    throw new IllegalStateException("Failed to instantiate JakartaXmlBindAnnotationIntrospector: "+e.getMessage(), e);
                 }
             default:
                 throw new IllegalStateException();
